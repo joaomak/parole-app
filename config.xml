@@ -41,7 +41,7 @@
         <param name="APP_ID" value="108237009230483" />
         <param name="APP_NAME" value="playparole" />
     </gap:plugin>
-
+    <gap:plugin name="it.mobimentum.phonegapspinnerplugin" />
     <gap:plugin name="com.mcm.plugins.androidinappbilling" version="3.0.1" />
 
     <icon src="img/icon.png" />
