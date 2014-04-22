@@ -44,7 +44,7 @@
     <gap:plugin name="it.mobimentum.phonegapspinnerplugin" />
     <gap:plugin name="com.mcm.plugins.androidinappbilling" version="3.0.1" />
 
-    <icon src="img/icon144.png" />
+    <icon src="img/icon200.png" />
     <icon gap:density="ldpi" gap:platform="android" src="img/icon36.png" />
     <icon gap:density="mdpi" gap:platform="android" src="img/icon48.png" />
     <icon gap:density="hdpi" gap:platform="android" src="img/icon72.png" />
