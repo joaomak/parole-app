@@ -17,7 +17,7 @@
 
     <preference name="phonegap-version" value="3.3.0" />
     <preference name="permissions" value="none" />
-    <preference name="orientation" value="default" />
+    <preference name="orientation" value="vertical" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="false" />
     <preference name="webviewbounce" value="false" />
@@ -34,7 +34,7 @@
     <preference name="backgroundColor" value="0xffffff" />
 
     <gap:platform name="android" />
-
+    <gap:plugin name="org.apache.cordova.network-information" version="0.2.7" />
     <gap:plugin name="nl.x-services.plugins.socialsharing" />
 
     <gap:plugin name="com.phonegap.plugins.facebookconnect" >
@@ -42,6 +42,9 @@
         <param name="APP_NAME" value="playparole" />
     </gap:plugin>
     <gap:plugin name="it.mobimentum.phonegapspinnerplugin" />
+    <gap:plugin name="nl.x-services.plugins.launchmyapp">
+        <param name="URL_SCHEME" value="HOST_NAME=playparole.com" />
+    </gap:plugin>
     <gap:plugin name="com.mcm.plugins.androidinappbilling" version="3.0.1" />
 
     <icon src="img/icon200.png" />
