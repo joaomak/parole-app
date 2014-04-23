@@ -34,7 +34,7 @@
     <preference name="backgroundColor" value="0xffffff" />
 
     <gap:platform name="android" />
-    
+
     <gap:url-scheme role="None">
       <scheme>http</scheme>
       <scheme>parole</scheme>
@@ -49,8 +49,8 @@
         <param name="APP_NAME" value="playparole" />
     </gap:plugin>
     <gap:plugin name="it.mobimentum.phonegapspinnerplugin" />
-    
-    <gap:plugin name="com.mcm.plugins.androidinappbilling" version="3.0.1" />
+    <gap:plugin name="com.adobe.plugins.gaplugin" />
+    <!--<gap:plugin name="com.mcm.plugins.androidinappbilling" version="3.0.1" />-->
 
     <icon src="img/icon200.png" />
     <icon gap:density="ldpi" gap:platform="android" src="img/icon36.png" />
