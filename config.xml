@@ -64,7 +64,7 @@
    
    
     <access origin="http://127.0.0.1*" />
-    <access origin="http://playparole.com/*" subdomains="true" />
+    <access origin="http://www.playparole.com/*" subdomains="true" />
     <access origin="*" />
     <content src="index.html" />
 </widget>
