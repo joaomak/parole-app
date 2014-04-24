@@ -43,6 +43,7 @@
 
     <gap:plugin name="org.apache.cordova.network-information" version="0.2.7" />
     <gap:plugin name="nl.x-services.plugins.socialsharing" />
+    <gap:plugin name="org.li8.inappbrowser" version="0.1" />
 
     <gap:plugin name="com.phonegap.plugins.facebookconnect" >
         <param name="APP_ID" value="108237009230483" />
