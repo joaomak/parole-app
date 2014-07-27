@@ -37,7 +37,7 @@
 
     <gap:plugin name="nl.x-services.plugins.launchmyapp">
     <param name="URL_SCHEME" value="parole" />
-    <param name="URL_HOST" value="playparole.com" />
+    <param name="HTTP_HOST" value="www.playparole.com" />
     </gap:plugin>
 
     <gap:plugin name="com.simplec.plugins.powermanagement" />
