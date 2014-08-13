@@ -34,12 +34,12 @@
 
     <gap:platform name="android" />
 
-    <gap:plugin name="com.oktala.plugins.launchmyapp">
+    <gap:plugin name="com.machenmusik.plugins.launchmyapp">
         <param name="URL_SCHEME" value="http" />
         <param name="HTTP_HOST" value="www.playparole.com" />
-        <param name="HTTP_PATHPREFIX" value="" />
+        <param name="HTTP_PATHPREFIX" value="/jogo/" />
         <param name="HTTPS_HOST" value="www.playparole.com" />
-        <param name="HTTPS_PATHPREFIX" value="" />
+        <param name="HTTPS_PATHPREFIX" value="/jogo/" />
     </gap:plugin>
 
     <gap:plugin name="com.simplec.plugins.powermanagement" />
