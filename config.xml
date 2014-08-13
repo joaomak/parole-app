@@ -34,7 +34,7 @@
 
     <gap:platform name="android" />
 
-    <gap:plugin name="nl.x-services.plugins.launchmyapp" version="3.1.2">
+    <gap:plugin name="com.machenmusik.plugins.launchmyapp" version="3.1.2">
         <param name="URL_SCHEME" value="http" />
         <param name="HTTP_HOST" value="www.playparole.com" />
     </gap:plugin>
