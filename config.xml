@@ -2,7 +2,7 @@
   <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.oktala.parole"
-        version     = "1.3" >
+        version     = "1.4" >
 
     <!-- versionCode is optional and Android only -->
 
@@ -37,9 +37,9 @@
     <gap:plugin name="com.machenmusik.plugins.launchmyapp">
         <param name="URL_SCHEME" value="http" />
         <param name="HTTP_HOST" value="www.playparole.com" />
-        <param name="HTTP_PATHPREFIX" value="/jogo/" />
+        <param name="HTTP_PATHPREFIX" value="" />
         <param name="HTTPS_HOST" value="www.playparole.com" />
-        <param name="HTTPS_PATHPREFIX" value="/jogo/" />
+        <param name="HTTPS_PATHPREFIX" value="" />
     </gap:plugin>
 
     <gap:plugin name="com.simplec.plugins.powermanagement" />
