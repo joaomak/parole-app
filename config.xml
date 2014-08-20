@@ -42,7 +42,7 @@
         <param name="HTTPS_PATHPREFIX" value="" />
     </gap:plugin>
 
-    <plugin name="WebIntent" value="com.borismus.webintent.WebIntent" />
+    <gap:plugin name="net.tunts.webintent" />
 
     <gap:plugin name="com.simplec.plugins.powermanagement" />
     <gap:plugin name="org.apache.cordova.network-information" version="0.2.7" />
