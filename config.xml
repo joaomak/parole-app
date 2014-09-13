@@ -14,8 +14,10 @@
         Oktala
     </author>
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <preference name="phonegap-version" value="3.5.0" />
-    <preference name="permissions" value="none" />
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="false" />
@@ -31,7 +33,6 @@
     <preference name="android-minSdkVersion" value="14" />
     <preference name="android-installLocation" value="auto" />
     <preference name="backgroundColor" value="0xffffff" />
-
     <gap:platform name="android" />
 
     <gap:plugin name="com.machenmusik.plugins.launchmyapp">
@@ -55,6 +56,7 @@
         <param name="APP_NAME" value="playparole" />
     </gap:plugin>
     <gap:plugin name="com.adobe.plugins.gaplugin" />
+
     <!--<gap:plugin name="com.mcm.plugins.androidinappbilling" version="3.0.1" />-->
 
     <icon src="img/icon200.png" />
