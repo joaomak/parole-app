@@ -14,9 +14,9 @@
         Oktala
     </author>
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    
+    <preference name="permissions" value="none"/>
     <preference name="phonegap-version" value="3.5.0" />
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
