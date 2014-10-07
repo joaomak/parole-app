@@ -57,7 +57,7 @@
     </gap:plugin>
     <gap:plugin name="com.adobe.plugins.gaplugin" />
 
-    <!--<gap:plugin name="com.mcm.plugins.androidinappbilling" version="3.0.1" />-->
+    <gap:plugin name="com.mcm.plugins.androidinappbilling" version="3.0.1" />
 
     <icon src="img/icon200.png" />
     <icon gap:density="ldpi" gap:platform="android" src="img/icon36.png" />
