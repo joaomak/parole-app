@@ -2,7 +2,7 @@
   <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.oktala.parole"
-        version     = "1.6.2" >
+        version     = "1.6.3" >
 
     <!-- versionCode is optional and Android only -->
 
@@ -17,7 +17,6 @@
     <feature name="http://api.phonegap.com/1.0/network"/>
     
     <preference name="permissions" value="none"/>
-    <preference name="phonegap-version" value="3.5.0" />
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="false" />
@@ -46,9 +45,9 @@
     <gap:plugin name="net.tunts.webintent" />
 
     <gap:plugin name="com.simplec.plugins.powermanagement" />
-    <gap:plugin name="org.apache.cordova.network-information" version="0.2.7" />
+    <gap:plugin name="org.apache.cordova.network-information"  />
     <gap:plugin name="nl.x-services.plugins.socialsharing" />
-    <gap:plugin name="org.li8.inappbrowser" version="0.1" />
+    <gap:plugin name="org.li8.inappbrowser" />
 
 
     <gap:plugin name="com.phonegap.plugins.facebookconnect" >
@@ -57,7 +56,7 @@
     </gap:plugin>
     <gap:plugin name="com.adobe.plugins.gaplugin" />
 
-    <gap:plugin name="com.mcm.plugins.androidinappbilling" version="3.0.1" />
+    <gap:plugin name="com.mcm.plugins.androidinappbilling" />
 
     <icon src="img/icon200.png" />
     <icon gap:density="ldpi" gap:platform="android" src="img/icon36.png" />
