@@ -2,7 +2,7 @@
   <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.oktala.parole"
-        version     = "1.6.4" >
+        version     = "1.6.5" >
 
     <!-- versionCode is optional and Android only -->
 
@@ -57,6 +57,7 @@
     <gap:plugin name="com.adobe.plugins.gaplugin" />
 
     <gap:plugin name="com.mcm.plugins.androidinappbilling" />
+    <gap:plugin name="com.purplebrain.adbuddiz.sdk" source="plugins.cordova.io" />
 
     <icon src="img/icon200.png" />
     <icon gap:density="ldpi" gap:platform="android" src="img/icon36.png" />
