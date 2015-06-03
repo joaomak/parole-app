@@ -57,7 +57,7 @@
     <gap:plugin name="com.adobe.plugins.gaplugin" />
 
     <gap:plugin name="com.mcm.plugins.androidinappbilling" />
-    <gap:plugin name="com.purplebrain.adbuddiz.sdk" source="plugins.cordova.io" />
+    <!-- <gap:plugin name="com.purplebrain.adbuddiz.sdk" source="plugins.cordova.io" /> -->
 
     <icon src="img/icon200.png" />
     <icon gap:density="ldpi" gap:platform="android" src="img/icon36.png" />
