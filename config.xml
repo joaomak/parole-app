@@ -47,7 +47,7 @@
     <gap:plugin name="com.simplec.plugins.powermanagement" />
     <gap:plugin name="org.apache.cordova.network-information"  />
     <gap:plugin name="nl.x-services.plugins.socialsharing" />
-    <gap:plugin name="org.li8.inappbrowser" />
+    <!-- <gap:plugin name="org.li8.inappbrowser" /> -->
 
 
     <gap:plugin name="com.phonegap.plugins.facebookconnect" version="0.4.0">
