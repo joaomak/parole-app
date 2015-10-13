@@ -2,7 +2,7 @@
   <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.oktala.parole"
-        version     = "1.6.6" >
+        version     = "1.7" >
 
     <!-- versionCode is optional and Android only -->
 
@@ -15,7 +15,7 @@
     </author>
 
     <feature name="http://api.phonegap.com/1.0/network"/>
-    
+
     <preference name="permissions" value="none"/>
     <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
@@ -67,8 +67,8 @@
     <icon gap:density="xxhdpi" gap:platform="android" src="img/icon144.png" />
     <icon gap:density="xxxhdpi" gap:platform="android" src="img/icon200.png" />
 
-   
-   
+
+
     <access origin="http://127.0.0.1*" />
     <access origin="http://www.playparole.com/*" subdomains="true" />
     <access origin="*" />
