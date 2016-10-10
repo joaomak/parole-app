@@ -29,7 +29,7 @@
     <preference name="show-splash-screen-spinner" value="true" />
     <preference name="auto-hide-splash-screen" value="true" />
     <preference name="disable-cursor" value="false" />
-    <preference name="android-minSdkVersion" value="23" />
+    <preference name="android-minSdkVersion" value="14" />
     <preference name="android-installLocation" value="auto" />
     <preference name="backgroundColor" value="0xffffff" />
     <gap:platform name="android" />
@@ -46,7 +46,7 @@
 
     <gap:plugin name="com.simplec.plugins.powermanagement" />
     <gap:plugin name="org.apache.cordova.network-information"  />
-    <gap:plugin name="nl.x-services.plugins.socialsharing" />
+    <gap:plugin name="nl.x-services.plugins.socialsharing" source="npm" />
     <!-- <gap:plugin name="org.li8.inappbrowser" /> -->
 
 
