@@ -46,7 +46,7 @@
 
     <gap:plugin name="com.simplec.plugins.powermanagement" />
     <gap:plugin name="org.apache.cordova.network-information"  />
-    <gap:plugin name="nl.x-services.plugins.socialsharing" source="npm" />
+    <gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
     <!-- <gap:plugin name="org.li8.inappbrowser" /> -->
 
 
