@@ -29,10 +29,11 @@
     <preference name="show-splash-screen-spinner" value="true" />
     <preference name="auto-hide-splash-screen" value="true" />
     <preference name="disable-cursor" value="false" />
-    <preference name="android-minSdkVersion" value="22" />
+    <preference name="android-minSdkVersion" value="15" />
     <preference name="android-installLocation" value="auto" />
     <preference name="backgroundColor" value="0xffffff" />
     <gap:platform name="android" />
+<preference name="android-build-tool" value="gradle" />
 
     <gap:plugin name="com.machenmusik.plugins.launchmyapp">
         <param name="URL_SCHEME" value="http" />
@@ -50,7 +51,7 @@
     <!-- <gap:plugin name="org.li8.inappbrowser" /> -->
 
 
-    <gap:plugin name="com.phonegap.plugins.facebookconnect" >
+    <gap:plugin name="cordova-plugin-facebook4" source="npm" spec="1.7.3" >
         <param name="APP_ID" value="108237009230483" />
         <param name="APP_NAME" value="playparole" />
     </gap:plugin>
