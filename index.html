@@ -3,7 +3,6 @@
 
 <head>
     <!--base href="http://localhost/jm/playparole/parole-tre/app/www/" /-->
-    <base href="http://localhost/jm/playparole/parole-tre/app/www/" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="language" content="pt" />
     <title>Parole: Jogo de Caça palavras online grátis </title>
@@ -44,7 +43,7 @@
     <!--script src="inc/prefixfree.min.js"></script-->
 </head>
 
-<body id="home" class="">
+<body id="home" class="mobile ">
 
     <div id="fb-root"></div>
     <div id="loader">
@@ -107,14 +106,9 @@
                 id="open-right"><strong class="odometer">0</strong><small class="muted"> pontos</small> <i
                     class="icon-uniE60F"></i> </a>
         </div>
-        <div class="ad sobrepor">
-            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- Parole Sobrepor -->
-            <ins class="adsbygoogle" style="display:inline-block;width:336px;height:280px"
-                data-ad-client="ca-pub-6837102742821528" data-ad-slot="1906318567"></ins>
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
+        <div class="ad sobrepor"><a class="gum" target="_system" href="http://s.playparole.com/app/gumroad.php?id="><img
+                    alt="Premium" src="http://s.playparole.com/app/www/img/premium.jpg"
+                    class="img-responsive center-block img-premium" width="360" height="360" /></a>
             <p>Você pode ir para o jogo em <strong id="countdown">10</strong><br />
                 ou torne-se um jogador <a data-toggle="modal" href="#user-info">Premium</a></p>
             <p><button id="skip" class="btn btn-primary">Jogar</button></p>
@@ -188,7 +182,7 @@
                         <p><button onclick="login()" class="fb-login btn btn-primary"><i
                                     class="icon-facebook-square"></i>&nbsp; Login com Facebook</button></p>
                         <div class="text-warning is-premium"><i class="premium icon-medal_star" title="Premium"></i>
-                            Jogador Premium <small>(até 01/01/1971)</small>
+                            Jogador Premium <small></small>
                         </div>
                     </div>
                     <div id="leaderboard"></div>
@@ -201,9 +195,10 @@
     </div>
 
 
-    <script type="text/javascript">server = 'http://localhost/jm/playparole/parole-tre/app/';</script>
+    <script type="text/javascript">server = 'http://s.playparole.com/app/';</script>
     <script type="text/javascript" src="parole.js"></script>
-    <script type="text/javascript" src="web.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="plugins.js"></script>
 
 </body>
 
